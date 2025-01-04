@@ -20,6 +20,8 @@ public class Blog {
 
     private String type;
 
+    private String theme;
+
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
 
@@ -80,5 +82,13 @@ public class Blog {
 
     public void setIcon(String icon) {
         this.icon = icon;
+    }
+
+    public void setTheme(String Theme) {
+        this.theme = theme;
+    }
+    
+    public String getheme() {
+        return theme;
     }
 }
