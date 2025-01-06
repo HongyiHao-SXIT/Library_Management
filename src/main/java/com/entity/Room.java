@@ -6,17 +6,17 @@ import com.baomidou.mybatisplus.annotation.TableId;
 
 public class Room {
     @TableId(type = IdType.AUTO)
-    private Integer id;
+    private int id;
 
     private String name;
 
     private String account;
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 

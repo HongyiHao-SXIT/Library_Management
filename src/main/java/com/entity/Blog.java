@@ -12,11 +12,9 @@ public class Blog {
     @TableId(type = IdType.AUTO)
     private int id;
 
-    private String content;
-
     private String account;
 
-    private int roomId;
+    private int blogId;
 
     private String type;
 
@@ -32,16 +30,8 @@ public class Blog {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
     }
 
     public String getAccount() {
@@ -52,12 +42,12 @@ public class Blog {
         this.account = account;
     }
 
-    public int getRoomId() {
-        return roomId;
+    public int getblogId() {
+        return blogId;
     }
 
-    public void setRoomId(Integer roomId) {
-        this.roomId = roomId;
+    public void setblogId(int blogId) {
+        this.blogId = blogId;
     }
 
     public String getType() {
@@ -84,7 +74,7 @@ public class Blog {
         this.icon = icon;
     }
 
-    public void setTheme(String Theme) {
+    public void setTheme(String theme) {
         this.theme = theme;
     }
     

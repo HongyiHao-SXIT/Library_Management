@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableId;
 public class User{
 
 	@TableId(type = IdType.AUTO)
-	private Integer id;
+	private int id;
 
 	private String account;
 
@@ -15,14 +15,14 @@ public class User{
 
 	private String icon;
 
-	private String remark;
+	private String introduce;
 
-	public String getRemark() {
-		return remark;
+	public String getintro() {
+		return introduce;
 	}
 
-	public void setRemark(String remark) {
-		this.remark = remark;
+	public void setintro(String intro) {
+		introduce = intro ;
 	}
 
 	public Integer getId() {

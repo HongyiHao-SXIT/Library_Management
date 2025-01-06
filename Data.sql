@@ -34,8 +34,8 @@ CREATE TABLE `comment`  (
 -- ----------------------------
 -- Table structure for room
 -- ----------------------------
-DROP TABLE IF EXISTS `room`;
-CREATE TABLE `room`  (
+DROP TABLE IF EXISTS `blog`;
+CREATE TABLE `blog`  (
   `id` int(0) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
   `account` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL,
