@@ -20,6 +20,8 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 -- Table structure for comment
 -- ----------------------------
+USE SXITForum;
+
 DROP TABLE IF EXISTS `comment`;
 CREATE TABLE `comment`  (
   `id` int(0) NOT NULL AUTO_INCREMENT,
