@@ -3,31 +3,23 @@ package com.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.entity.User;
+public class Manager extends User  {
+    @TableId(type = IdType.AUTO)
+    private int id;
 
-public class User{
+    private String account;
 
-	@TableId(type = IdType.AUTO)
-	private int id;
+    private String password;
 
-	private String account;
+    private String icon;
 
-	private String password;
+    private String introduce;
 
-	private String icon;
+    private String usertype = Manager;
 
-	private String introduce;
 
-	private String usertype;
-
-	public void setusertype(String usertype){
-		this.usertype = usertype;
-	}
-
-	public String getusertype(){
-		return usertype;
-	}
-
-	public String getintro() {
+    public String getintro() {
 		return introduce;
 	}
 
@@ -66,4 +58,7 @@ public class User{
 	public void setPassword(String password) {
 		this.password = password;
 	}
+
+
+
 }
