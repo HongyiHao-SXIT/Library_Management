@@ -16,7 +16,7 @@ public class Student extends User  {
 
     private String introduce;
 
-    private String usertype = Student;
+    private String usertype = "Student";
 
 
     public String getintro() {

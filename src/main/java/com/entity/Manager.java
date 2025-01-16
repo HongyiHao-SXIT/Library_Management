@@ -16,7 +16,7 @@ public class Manager extends User  {
 
     private String introduce;
 
-    private String usertype = Manager;
+    private String usertype = "Manager";
 
 
     public String getintro() {

@@ -20,6 +20,8 @@ public class Blog {
 
     private String theme;
 
+    private String comment;
+
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date createTime;
 
@@ -78,7 +80,15 @@ public class Blog {
         this.theme = theme;
     }
     
-    public String getheme() {
+    public String getTheme() {
         return theme;
+    }
+
+    public void setComment(String comment) {
+        this.comment = comment;
+    }
+    
+    public String getcommnet() {
+        return comment;
     }
 }
