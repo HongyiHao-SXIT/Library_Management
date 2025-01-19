@@ -17,14 +17,14 @@ public class User{
 
 	private String introduce;
 
-	private String usertype;
+	private String role;
 
-	public void setusertype(String usertype){
-		this.usertype = usertype;
+	public void setuserrole(String userrole){
+		this.userrole = userrole;
 	}
 
-	public String getusertype(){
-		return usertype;
+	public String getuserrole(){
+		return userrole;
 	}
 
 	public String getintro() {
