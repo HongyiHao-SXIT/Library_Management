@@ -1,4 +1,4 @@
-package com.forum.forum.controller;
+package com.library_management.library_management.controller;
  
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

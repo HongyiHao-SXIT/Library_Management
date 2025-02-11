@@ -1,4 +1,4 @@
-package com.forum.forum.controller;
+package com.library_management.library_management.controller;
  
 import java.util.HashMap;
 import org.springframework.web.bind.annotation.RequestMapping;

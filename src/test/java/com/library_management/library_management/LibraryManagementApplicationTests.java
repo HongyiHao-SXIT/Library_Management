@@ -1,10 +1,10 @@
-package com.forum.forum;
+package com.library_management.library_management;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ForumApplicationTests {
+class LibraryManagementApplicationTests {
 
 	@Test
 	void contextLoads() {
