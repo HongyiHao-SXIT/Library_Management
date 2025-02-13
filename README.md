@@ -1,4 +1,4 @@
-# README for Spring Boot Library Management System
+# Library Management System(Spring Boot)
 
 ## I. Project Overview
 This library management system is developed based on the Spring Boot framework, aiming to provide an efficient and convenient solution for the daily management of libraries. The system covers core functions such as book management, user management, and borrowing management, helping library staff manage library resources more effectively and improve service quality. At the same time, it provides readers with convenient borrowing and query services.
@@ -25,7 +25,7 @@ This library management system is developed based on the Spring Boot framework, 
     - MySQL 5.7 or higher
     - Maven 3.3 or higher
 2. **Download the Project**: Download the project source code from the GitHub repository or other code hosting platforms.
-3. **Configure the Database**: In the `src/main/resources/application.properties` file, configure the connection information of the MySQL database, including the database address, port, username, and password.
+3. **Configure the Database**: In the `lidrary_manager.sql` file, configure the connection information of the MySQL database, including the database address, port, username, and password.
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/library_management?useSSL=false&serverTimezone=UTC
 spring.datasource.username=root

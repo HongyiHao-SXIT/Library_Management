@@ -1,25 +1,24 @@
 package com.library_management.library_management.entity;
 
-import com.baomidou.mybatisplus.annotation.TableId;
+/*import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.IdType;
-
+*/
 public class User {
 
-    @TableId(type = IdType.AUTO)
-    private int id;
+    //@TableId(type = IdType.AUTO)
+    private int uid;
     private String account;
     private String password;
     private String name;
-    private String icon;
     private String address;
     private String phoneNumber;
 
-    public int getId() {
-        return id;
+    public int getUid() {
+        return uid;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setUid(int uid) {
+        this.uid = uid;
     }
 
     public String getAccount() {
@@ -28,14 +27,6 @@ public class User {
 
     public void setAccount(String account) {
         this.account = account;
-    }
-
-    public String getIcon() {
-        return icon;
-    }
-
-    public void setIcon(String icon) {
-        this.icon = icon;
     }
 
     public String getAddress() {
