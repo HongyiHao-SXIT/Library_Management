@@ -1,4 +1,4 @@
-package com.library_management.library_management.entity;
+package com.library_manager.library_manager.entity;
 
 public class Book {
     private String id_book;

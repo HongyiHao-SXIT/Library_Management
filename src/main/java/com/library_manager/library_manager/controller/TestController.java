@@ -1,4 +1,4 @@
-package com.library_management.library_management.controller;
+package com.library_manager.library_manager.controller;
  
 import java.util.HashMap;
 import org.springframework.web.bind.annotation.RequestMapping;

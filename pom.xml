@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version>
+		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.library_management</groupId>
-	<artifactId>library_management</artifactId>
+	<groupId>com.library_manager</groupId>
+	<artifactId>library_manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>library_management</name>
+	<name>library_manager</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

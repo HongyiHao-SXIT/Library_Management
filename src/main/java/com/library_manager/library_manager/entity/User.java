@@ -1,11 +1,6 @@
-package com.library_management.library_management.entity;
+package com.library_manager.library_manager.entity;
 
-/*import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.IdType;
-*/
 public class User {
-
-    //@TableId(type = IdType.AUTO)
     private int uid;
     private String account;
     private String password;
